@@ -4,3 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+.cabecalho {
+    text-align: center;
+    padding: 60px 0;
+}
