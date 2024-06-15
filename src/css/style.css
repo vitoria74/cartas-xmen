@@ -3,6 +3,7 @@ body {
     background-image: url('../imagens/wallpaper_resized.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 } 
 
 .cabecalho {
@@ -11,6 +12,14 @@ body {
 
 .personagens-slider {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.lista-personagens {
+    width: 226px;
+    height: 330px;
 }
 
 
