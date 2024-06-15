@@ -1,12 +1,16 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url('../imagens/wallpaper.webp');
+    background-image: url('../imagens/wallpaper_resized.webp');
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
 .cabecalho {
     text-align: center;
+}
+
+.personagens-slider {
+    display: flex;
 }
 
 
