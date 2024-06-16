@@ -34,4 +34,8 @@ body {
     justify-content: center;
 }
 
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+
 
