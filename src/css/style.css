@@ -58,4 +58,9 @@ body {
     opacity: 1;
 }
 
+.cartao.imagem-personagem {
+    width: 100%;
+    max-height: 280px;
+}
+
 
