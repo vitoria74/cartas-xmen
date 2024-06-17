@@ -88,4 +88,12 @@ body {
     padding: 12px;
 }
 
+.cartao .descricao .texto {
+    font-size: 14px;
+    padding: 12px;
+    text-align: justify;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
 
