@@ -21,6 +21,7 @@ body {
 .lista-personagens {
     width: 226px;
     height: 330px;
+    position: relative;
 }
 
 .btn-seta {
@@ -45,6 +46,12 @@ body {
 
 .cartao {
     opacity: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.cartao.selecionado {
+    opacity: 1;
 }
 
 
