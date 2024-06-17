@@ -19,8 +19,8 @@ body {
 }
 
 .lista-personagens {
-    width: 226px;
-    height: 330px;
+    width: 270px;
+    height: 520px;
     position: relative;
 }
 
@@ -54,7 +54,7 @@ body {
     transition: opacity 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .cartao.selecionado {
