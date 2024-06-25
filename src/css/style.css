@@ -50,7 +50,7 @@ body {
     height: 100%;
     position: absolute;
     padding: 12px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
     border-radius: 10px;
     transition: opacity 0.3s ease-in-out;
     display: flex;
