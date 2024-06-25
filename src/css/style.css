@@ -1,9 +1,10 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url('../imagens/wallpaper_resized.webp');
+    background-image: url('../imagens/wallpaper-xmen.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    background-position: center;
 } 
 
 .cabecalho {
