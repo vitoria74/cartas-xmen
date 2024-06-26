@@ -1,4 +1,5 @@
  const btnAvancar = document.getElementById('btn-avancar');
+ const btnVoltar = document.getElementById('btn-voltar');
 
  let cartaoAtual = 0;
 
@@ -12,6 +13,17 @@
     cartaoSelecionado.classList.remove('selecionado');
 
     cartaoAtual++;
+    cartoes[cartaoAtual].classList.add('selecionado');
+
+
+});
+
+btnVoltar.addEventListener('click', function(){
+
+    const cartaoSelecionado = document.querySelector('.selecionado');
+    cartaoSelecionado.classList.remove('selecionado');
+
+    cartaoAtual--;
     cartoes[cartaoAtual].classList.add('selecionado');
 
 
