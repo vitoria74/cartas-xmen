@@ -9,11 +9,10 @@
 
     if(cartaoAtual === cartoes.length - 1) return;
 
-    const cartaoSelecionado = document.querySelector('.selecionado');
-    cartaoSelecionado.classList.remove('selecionado');
+    esconderCartaoSelecionado();
 
     cartaoAtual++;
-    cartoes[cartaoAtual].classList.add('selecionado');
+    mostrarCartao();
 
 
 });
@@ -22,11 +21,19 @@ btnVoltar.addEventListener('click', function(){
 
     if(cartaoAtual === 0) return;
 
-    const cartaoSelecionado = document.querySelector('.selecionado');
-    cartaoSelecionado.classList.remove('selecionado');
+    esconderCartaoSelecionado();
 
     cartaoAtual--;
-    cartoes[cartaoAtual].classList.add('selecionado');
+    mostrarCartao();
 
 
 });
+
+function mostrarCartao() {
+    cartoes[cartaoAtual].classList.add('selecionado');
+}
+
+function esconderCartaoSelecionado() {
+    const cartaoSelecionado = document.querySelector('.selecionado');
+    cartaoSelecionado.classList.remove('selecionado');
+}
