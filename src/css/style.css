@@ -31,7 +31,7 @@ body {
     height: 70px;
     border-radius: 50px;
     border: 0;
-    cursor: pointer; /*mostrar q eh clicavel*/
+    cursor: pointer; 
     align-items: center;
     justify-content: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

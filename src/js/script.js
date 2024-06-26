@@ -3,7 +3,7 @@
 
  let cartaoAtual = 0;
 
- const cartoes = document.querySelectorAll('.cartao'); //selecionar todos os cartoes da classe .cartao
+ const cartoes = document.querySelectorAll('.cartao'); 
 
  btnAvancar.addEventListener('click', function(){
 
@@ -13,7 +13,6 @@
 
     cartaoAtual++;
     mostrarCartao();
-
 
 });
 
@@ -25,7 +24,6 @@ btnVoltar.addEventListener('click', function(){
 
     cartaoAtual--;
     mostrarCartao();
-
 
 });
 
