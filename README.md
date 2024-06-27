@@ -11,3 +11,5 @@
  - HTML
  - CSS
  - Google Fonts
+
+ Usei JavaScript para dar funcionalidade as setas "avançar" e "voltar" e media queries, com CSS, para deixar o site responsivo.
